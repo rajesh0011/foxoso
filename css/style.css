@@ -269,7 +269,7 @@ a{
     padding: 10px 2px;
 }
 .site-navbar .site-navigation .site-menu > li > a {
-    padding: 20px 12px;
+    padding: 20px 6px;
     font-size: 13px;
     text-decoration: none !important;
     font-weight: 300;
@@ -278,6 +278,7 @@ a{
     letter-spacing: 0.4px;
     font-family: 'MontserratLight';
 }
+
 .site-navbar .site-navigation .site-menu > li > a.active {
     color: #fff;
 }
@@ -308,6 +309,13 @@ a{
     transform: translateY(-50%);
     font-family: "icomoon";
 }
+.site-navbar .site-navigation .site-menu > li > a.nav-link.btn.btn-primary {
+    padding: 8px 10px!important;
+}
+.site-navbar .site-navigation .site-menu > li > a.nav-link.btn.btn-primary:hover{
+    color: #b18c60!important;
+}
+
 .site-navbar .site-navigation .site-menu .has-children .dropdown {
     visibility: hidden;
     opacity: 0;
@@ -732,7 +740,7 @@ section.hero-sec {
     position: relative;
 }
 .custom-form-outer-div {
-    width: 20% !important;
+    width: 16% !important;
     padding-left: 7px !important;
     padding-right: 7px !important;
     margin: 3px 0;
@@ -1125,7 +1133,7 @@ a.moreless-button {
 
 #speaker {
     position: relative;
-    padding: 80px 0 90px 0;
+    padding: 60px 0 20px 0;
     background: #ffffff;
 }
 
@@ -1147,10 +1155,11 @@ a.moreless-button {
     overflow: hidden;
 }
 
-#speaker .img-col img {
+#speaker .img-col img, #speaker .img-col video {
     transition: 0.3s;
-    width: 100%;
-    height: 100%;
+    width: 100%!important;
+    max-height: 500px;
+    object-fit: cover;
 }
 
 #speaker .img-col:hover img {
@@ -1787,6 +1796,20 @@ section.offer-sec {
 .inner-img-section {
     margin: 10px 0;
 }
+
+.client-logoo img{
+    padding: 1rem;
+}
+.client-section{
+    padding: 3rem 0;
+}
+.client-section h5 {
+    font-size: 34px;
+    color: #b29158;
+    font-family: 'RossanovaRegular';
+    text-transform: uppercase;
+}
+
 /* ==========================================================================
    new footer css starts here rj
    ========================================================================== */
@@ -2086,6 +2109,42 @@ section.offer-sec {
       top: 50%;
       transform: translate(50%, -50%);
   }
+
+
+.other-contacts .mobiles a {
+    margin-bottom: 11px;
+    display: block;
+    font-size: 15px;
+    color: #b29158;
+    color: #000;
+}
+.other-contacts .mobiles a i{
+   color: #b29158; 
+   padding-right: 10px;
+}
+
+
+
+.other-contacts .mobiles {
+    display: block;
+}
+.news-form form label {
+    color: #000;
+}
+.news-form form input.form-control {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    padding: 0;
+    height: 36px;
+    margin-bottom: 1.2rem;
+}
+.news-form form input.form-control:focus{
+    box-shadow: none;
+}
+
+
   
   .footer_navbar_wrapper {
     border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -2232,7 +2291,118 @@ p.Copyright {
      new footer css ends here rj
      ========================================================================== */
 
+ .modal-enq-wed .fixed-form p {
+    margin-bottom: 7px !important;
+    text-align: center;
+    color: #000;
+    /* border-top: 1px dotted; */
+    padding-top: 4px;
+    font-weight: 500;
+}
+.modal-enq-wed .fixed-form.fixed {
+    /* text-align: center; */
+    display: block;
+    padding: 0 30px;
+    padding-top: 1rem;
+}
+.modal-enq-wed h5.modal-title {
+    text-align: center;
+    background-color: #b18c60;
+    border-radius: 0px;
+    padding: 5px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    color: #fff;
+    margin-top: 0px;
+    border-radius: 0.8rem 0.8rem 0 0;
+}
+.modal-enq-wed .modal-content {
+    border-radius: 1rem;
+    background-image: url(../img/wedding/flower-4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.modal-enq-wed .modal-body {
+    padding: 0;
+    border-bottom: 0.2rem solid #b18c60;
+    border-left: 0.2rem solid #b18c60;
+    border-right: 0.2rem solid #b18c60;
+    border-radius: 1rem;
+}
+.modal-enq-wed .fixed-form .formFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal-enq-wed .fixed-form label {
+    font-weight: 200;
+    font-family: 'MontserratLight';
+}
+.modal-enq-wed .btn-close {
+    position: absolute;
+    right: 4px;
+    top: 6px;
+    background-color: white;
+    opacity: 1;
+    padding: 5px;
+    border-radius: 18px;
+    font-size: 15px;
+}
+.modal-enq-wed .fixed-form .form-control,
+.modal-enq-wed .fixed-form .form-control:focus {
+    margin-bottom: .8rem;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    box-shadow: none;
+    border: none;
+    font-size: 14px;
+    border-left: 1px solid #b18c60;
+    border-bottom: 1px solid #b18c60;
+    border-radius: 6px;
+}
+.modal-enq-wed .fixed-form .form-control::placeholder{
+    opacity: 0;
+    font-family: 'MontserratLight';
+}
+.modal-enq-wed .fixed-form .form-control:focus::placeholder{
+    opacity: 1;
+}
+.modal-enq-wed .fixed-form form .form .form-group{
+    position: relative;
+}
+.modal-enq-wed .fixed-form .formFooter button {
+    text-align: center;
+    background: #b18c60;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    transition: all 300ms ease-in-out;
+    outline: none;
+    margin-bottom: 1rem;
+    width: 126px;
+    border-left: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-radius: 6px;
+}
 
+
+.career-banner {
+    background: url(../img/career-banner.jpg) !important;
+    background-size: cover !important;
+    background-position: bottom !important;
+}
 
 .position-relative{
     position: relative;
@@ -2249,48 +2419,6 @@ p.Copyright {
     padding-left: 0px;
     padding-right: 0px;
 }
-
-
-
-.masonry .brick {
-    box-sizing: border-box;
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid;
-    counter-increment: brick-counter;
-    margin-bottom: 4px;
-}
-.masonry img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.masonry {
-    column-count: 2;
-    column-gap: 5px;
-    margin-top: 2rem;
-}
-@media (min-width: 768px) {
-    .masonry {
-        column-count: 2;
-   }
-}
-@media (min-width: 992px) {
-    .masonry {
-        column-count: 2;
-   }
-}
-@media (min-width: 1199px) {
-    .masonry {
-        column-count: 3;
-   }
-}
-
-
-
-
-
 .overlay-block{
     background-color: #91753e;
     opacity: 0.8;
@@ -2844,6 +2972,9 @@ color: #fff;
 {
 	margin-bottom: 15px;
 }
+.amenities_list.rooms_list ul{list-style:none;display:flex;gap:15px} 
+.amenities_list.rooms_list ul li{display:flex;font-size:14px;align-items:flex-start;border:none}
+.amenities_list.rooms_list ul li img{width:18.5px}
 .rooms_button
 {
 	margin-top: 27px;
@@ -3437,6 +3568,24 @@ p.info-text{
     background-color: #f0f0f0;
 }
 
+a.fixed-whatsapp-btn i {
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #583200;
+    z-index: 99999999999;
+    color: #fff;
+    display: block;
+    background-color: #25D366;
+    padding: 10px;
+    font-size: 39px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, .5);
+}
+
 
     @media (min-width:768px) and (max-width:1023px){
         .inner-content-section{
@@ -3449,6 +3598,13 @@ p.info-text{
             width: 49%;
             padding-right: 40px;
         }
+        .hero-sec .carousel-inner .carousel-item img {
+                height: 60vh;
+                object-fit: cover;
+            }
+            section.hero-sec {
+                height: 60vh;
+            }
     }
     @media (min-width:1024px) and (max-width:1199px){
         .inner-content-section{
