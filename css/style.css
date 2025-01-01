@@ -2991,6 +2991,41 @@ color: #fff;
     padding-bottom: 5px;
 }
 
+.masonry .brick {
+    box-sizing: border-box;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    counter-increment: brick-counter;
+    margin-bottom: 4px;
+}
+.masonry img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.masonry {
+    column-count: 2;
+    column-gap: 5px;
+    margin-top: 2rem;
+}
+@media (min-width: 768px) {
+    .masonry {
+        column-count: 2;
+   }
+}
+@media (min-width: 992px) {
+    .masonry {
+        column-count: 2;
+   }
+}
+@media (min-width: 1199px) {
+    .masonry {
+        column-count: 3;
+   }
+}
+
 
 .facilities-sec .service-item {
     height: 100%;
