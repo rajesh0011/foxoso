@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Foxoso Hotels | Corporate Events</title>
+    <meta name="description" content="Foxoso Hotels" />
+        <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script src="js/jquery-ui.min.js"></script>    <style type="text/css">
+      .ui-widget.ui-widget-content {
+          position: absolute!important;
+      }
+      p{
+        font-weight:300;
+      }
+    </style>
+</head>
+
+<body id="home-page">
+    
+    <header>
+        <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+              <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+              </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+          </div>
+          
+          
+          <div class="site-navbar site-navbar-target js-sticky-header">
+            
+            <div class="site-navbar site-navbar-target">
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-1">
+                    <div class="my-0 site-logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" class="logo" alt="The Grand logo" />
+                        </a>
+                    </div>
+                  </div>
+                  <div class="mobile-book-now">
+                    <a href="#" class="nav-link header-book-now book-now-btn-t" id="find-reservation">Enquire Now</a>
+                  </div>
+                  <div class="col-11">
+                    <nav class="site-navigation text-right" role="navigation">
+                      <div class="container">
+                        <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3">
+                            <a href="#" class="site-menu-toggle js-menu-toggle text-white">
+                                <span class="icon-menu h3"></span>
+                            </a>
+                        </div>
+      
+                        <ul class="site-menu main-menu d-lg-block d-none js-clone-nav">
+                          <li class="active"><a href="index.html" class="nav-link ">Home</a></li>
+                          <li ><a href="hotels.html" class="nav-link">Our Hotels</a></li>
+                          <li><a href="about.html" class="nav-link ">About</a></li>
+                          <li><a href="gallery.html" class="nav-link ">Gallery</a></li>
+                          <li><a href="offers.html" class="nav-link ">Special Offers</a></li>
+                          <li><a href="events.html" class="nav-link ">Corporate events</a></li>
+                          <li><a href="weddings.html" class="nav-link ">Weddings</a></li>
+                          <li><a href="contact.html" class="nav-link ">Contact Us</a></li>
+                          <li><a href="#booking-engine" class="nav-link btn btn-primary">Book Now</a></li>
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </header>
+  <section class="inner-banner-area rooms-hero">
+    <div class="container">
+        <div class="contact-banner">
+            <div class="text-center">
+                <p class="inner-banner-heading">Corporate Events</p>
+                <nav aria-label="breadcrumb" class="banner-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Corporate Events</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="booking-form-section" id="booking-engine">
+   <article class="container">
+      <div class="enqiure-inner">
+         <div class="row">
+            
+            <div class="custom-form-outer-div">
+               <span>Check In Date</span>
+               <div class="input-group date" data-provide="datepicker">
+                  <input type="text" class="form-control" id="checkdate1" placeholder="Check In Date" name="fromdate" readonly="">
+               </div>
+            </div>
+            <div class="custom-form-outer-div">
+               <span>Check Out Date</span>
+               <div class="input-group date" data-provide="datepicker">
+                  <input type="text" class="form-control" id="checkdate2" placeholder="Check Out Date" name="todate" readonly="">
+               </div>
+            </div>
+            <div class="custom-form-outer-div">
+               <span>Adults</span>
+               <select class="form-select" id="roomId" aria-label="Default select example">
+                  <option value="1" selected>1 </option>
+                  <option value="2">2 </option>
+                  <option value="3">3 </option>
+                  <option value="4">4 </option>
+               </select>
+            </div>
+            <div class="custom-form-outer-div">
+               <span>Children</span>
+               <select class="form-select" id="roomId" aria-label="Default select example">
+                  <option value="1" selected>1 </option>
+                  <option value="2">2 </option>
+                  <option value="3">3 </option>
+                  <option value="4">4 </option>
+               </select>
+            </div>
+            <div class="custom-form-outer-div btn-div">
+               <span>&nbsp;</span>
+               <button type="submit" class="btn btn-primary w-100">Book Now</button>
+            </div>
+         </div>
+      </div>
+   </article>
+</section>
+<div class="events-main-section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title text-center text-uppercase">Corporate Events</h6>
+                <p>Host memorable corporate events and MICE at Foxoso Hotels. Our diverse venues, amazing pricing, and exceptional service redefine hospitality experiences. From state-of-the-art facilities to sophisticated halls, we cater to all your needs with unmatched luxury amidst nature's grandeur. Experience the Foxoso difference.</p>
+            </div>
+        </div>
+
+        <div class="row g-4 c-events">
+            <div class="col-md-12">
+                <h4 class="text-center mt-4">Why Choose Foxoso Hotels For Your Corporate Events</h4>
+            </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="service-item rounded" >
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-hotel fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <h5 class="mb-3 why-sub-head">Diverse Accommodation
+                            Options</h5>
+                            <p class="text-body mb-0">With 83 luxurious rooms, villas, and cottages in Goa and 34 deluxe rooms, suites, and retreats in Bhowali, the resorts can comfortably host large corporate groups and residential conferences.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="service-item rounded" >
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-user-clock fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <h5 class="mb-3 why-sub-head">Exceptional Event
+                            Support</h5>
+                            <p class="text-body mb-0">Dedicated event management teams ensure seamless execution with state-of-the-art facilities like backup power, DJ arrangements, and curated team-building activities.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="service-item rounded">
+                            <div class="service-icon bg-transparent border rounded p-1">
+                                <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
+                                </div>
+                            </div>
+                            <h5 class="mb-3 why-sub-head">Idyllic
+                            Locations</h5>
+                            <p class="text-body mb-0">The resorts' stunning beach and mountain locations in Goa and Bhowali offer a refreshing escape from the city, fostering creativity and team bonding in tranquil natural surroundings.</p>
+                        </a>
+                    </div>
+                    
+                </div>
+
+    </div>
+    
+</div>
+
+<section id="speaker">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-md-6 img-cols">
+                        <div class="img-col">
+                            <img class="w-100" src="img/ev-1.png" alt="foxoso hotels" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 content-cols content-cols-right">
+                        <div class="content-col">
+                            <h3>Exclusive Beachfront Venue</h3>
+                            <p>
+                            Offers stunning beachfront event space. A 40,000 sq ft lawn with direct beach access is perfect for corporate gatherings for up to 1,500 guests.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6 img-cols d-block d-md-none">
+                        <div class="img-col">
+                        <img class="w-100" src="img/ev-2.png" alt="foxoso hotels" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 content-cols  content-cols-left">
+                        <div class="content-col">
+                            <h3>Expansive Banquet Facilities</h3>
+                            <p>
+                            Our versatile event venues and state-of-the-art conference facilities, can accommodate gatherings of all sizes.
+                            </p>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-6 img-cols d-none d-md-block">
+                        <div class="img-col">
+                        <img class="w-100" src="img/ev-2.png" alt="foxoso hotels" />
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6 img-cols">
+                        <div class="img-col">
+                            <img class="w-100" src="img/ev-3.png">
+                        </div>
+                    </div>
+                    <div class="col-md-6 content-cols content-cols-right">
+                        <div class="content-col">
+                            <h3>Memorable Experiences</h3>
+                            <p>
+                            From team-building exercises to gala dinners, our dedicated event team will ensure your corporate event is a resounding success.
+                            </p>
+                           
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+
+   
+
+    <footer class="bottom col-xs-12 foot_block" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center voffset-bottom5">
+                    <h5>Contact Us</h5>
+                    <p>
+                        The Foxoso Group of Hotels, known for its amazing array, affordable prices, and superior service, upholds the motto of Food | Xperience | Stay.
+                        We pride ourselves on delivering exceptional service and unforgettable experiences. From our thoughtfully appointed accommodations to 
+                        our world-class dining options. Book our luxury hotels and resorts and discover the Foxoso difference.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <h6>Registered Address</h6>
+                    <p class="bottom-p">Foxoso Hospitality Private Limited Branch Office:<br/>
+                    380 Church St. Parramatta NSW 2150, Australia</p>
+
+                    <h6>Corporate Office Address</h6>
+                    <p class="bottom-p no-bottom-mar">
+                        Foxoso Corporate Office – Mehrauli-Gurgaon Rd,<br/>
+                        opp. Metro Pillar No – 16B, near Sultanpur Metro Station, <br/>
+                        Sultanpur, Delhi 110030, INDIA
+                    </p>
+                </div>
+                <div class="col-md-3 border-left text-center">
+                    <ul class="footer-nav">
+                        <li><a href="about.php" class="">About Us</a></li>
+                        <li><a href="#" class="">Experience</a></li>
+                        <li><a href="#" class="">Conferences</a></li>
+                        <li><a href="#" class="">Packages</a></li>
+                        <li><a href="#" class="">Careers</a></li>
+                        <li><a href="about.php" class="">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 border-left border-right text-center"> 
+                    <ul class="footer-nav">
+                        <li><a href="#" class="">Best Rate Guarantee</a></li>
+                        <li><a href="#" class="">Privacy Policy</a></li>
+                        <li><a href="#" class="">Terms & Conditions</a></li>
+                        <li><a href="contact.php" class="">Contact Us</a></li>
+                        <li><a href="#" class="">Podcast</a></li>
+                        <li><a href="#" class="">Manage Booking</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 text-center voffset5">
+                    <h6>Get In Touch</h6>
+                    <ul class="footer-social-links">
+                        <li> <a href="#" target="blank"><i class="icon-tripadvisor"> </i> </a></li>
+                        <li> <a href="#" target="blank"><i class="icon-facebook"> </i> </a></li>
+                        <li> <a href="#" target="blank"><i class="icon-instagram"> </i> </a></li>
+                        <li> <a href="#" target="blank"><i class="icon-twitter"> </i> </a></li>
+                    </ul>
+                </div>
+                <div class="col-12 text-center voffset5">
+                    <div class="bottom-footer-logo-section">
+                        <a href="index.php">
+                            <img src="img/footer-logo.png" alt="" class="footer-logo" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- <script src="js/jquery-3.7.1.min.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/validate.js"></script>
+
+   
+   
+
+</body>
+
+</html>

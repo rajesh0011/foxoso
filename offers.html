@@ -1,0 +1,387 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Foxoso Hotels | About us</title>
+    <meta name="description" content="Foxoso Hotels" />
+        <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <script src="js/jquery-ui.min.js"></script>    <style type="text/css">
+      .ui-widget.ui-widget-content {
+          position: absolute!important;
+      }
+      p{
+        font-weight:300;
+      }
+    </style>
+</head>
+
+<body id="home-page">
+    
+    <header>
+        <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+              <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+              </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+          </div>
+          
+          
+          <div class="site-navbar site-navbar-target js-sticky-header">
+            
+            <div class="site-navbar site-navbar-target">
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-1">
+                    <div class="my-0 site-logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" class="logo" alt="The Grand logo" />
+                        </a>
+                    </div>
+                  </div>
+                  <div class="mobile-book-now">
+                    <a href="#" class="nav-link header-book-now book-now-btn-t" id="find-reservation">Enquire Now</a>
+                  </div>
+                  <div class="col-11">
+                    <nav class="site-navigation text-right" role="navigation">
+                      <div class="container">
+                        <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3">
+                            <a href="#" class="site-menu-toggle js-menu-toggle text-white">
+                                <span class="icon-menu h3"></span>
+                            </a>
+                        </div>
+      
+                        <ul class="site-menu main-menu d-lg-block d-none js-clone-nav">
+                          <li class="active"><a href="index.html" class="nav-link ">Home</a></li>
+                          <li ><a href="hotels.html" class="nav-link">Our Hotels</a></li>
+                          <li><a href="about.html" class="nav-link ">About</a></li>
+                          <li><a href="gallery.html" class="nav-link ">Gallery</a></li>
+                          <li><a href="offers.html" class="nav-link ">Special Offers</a></li>
+                          <li><a href="events.html" class="nav-link ">Corporate events</a></li>
+                          <li><a href="weddings.html" class="nav-link ">Weddings</a></li>
+                          <li><a href="contact.html" class="nav-link ">Contact Us</a></li>
+                          <li><a href="#booking-engine" class="nav-link btn btn-primary">Book Now</a></li>
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </header>
+  <section class="inner-banner-area rooms-hero">
+    <div class="container">
+      <div class="contact-banner">
+        <div class="text-center">
+          <p class="inner-banner-heading">Special Offers</p>
+          <nav aria-label="breadcrumb" class="banner-breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Special Offers</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section class="booking-form-section" id="booking-engine">
+   <article class="container">
+      <div class="enqiure-inner">
+         <div class="row">
+            
+            <div class="custom-form-outer-div">
+               <span>Check In Date</span>
+               <div class="input-group date" data-provide="datepicker">
+                  <input type="text" class="form-control" id="checkdate1" placeholder="Check In Date" name="fromdate" readonly="">
+               </div>
+            </div>
+            <div class="custom-form-outer-div">
+               <span>Check Out Date</span>
+               <div class="input-group date" data-provide="datepicker">
+                  <input type="text" class="form-control" id="checkdate2" placeholder="Check Out Date" name="todate" readonly="">
+               </div>
+            </div>
+            <div class="custom-form-outer-div">
+               <span>Adults</span>
+               <select class="form-select" id="roomId" aria-label="Default select example">
+                  <option value="1" selected>1 </option>
+                  <option value="2">2 </option>
+                  <option value="3">3 </option>
+                  <option value="4">4 </option>
+               </select>
+            </div>
+            <div class="custom-form-outer-div">
+               <span>Children</span>
+               <select class="form-select" id="roomId" aria-label="Default select example">
+                  <option value="1" selected>1 </option>
+                  <option value="2">2 </option>
+                  <option value="3">3 </option>
+                  <option value="4">4 </option>
+               </select>
+            </div>
+            <div class="custom-form-outer-div btn-div">
+               <span>&nbsp;</span>
+               <button type="submit" class="btn btn-primary w-100">Book Now</button>
+            </div>
+         </div>
+      </div>
+   </article>
+</section>
+    <section class="offer-page-section">
+            <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title text-center  text-uppercase">Special Offers</h6>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 wow bounceInUp" data-wow-duration="2s">
+                        <div class="latest-news-wrapper">
+                            <div class="latest-news-inner">
+                                <div class="latest-news clearfix">
+                                    <figure><img src="img/offer-1.jpg" alt="" class="img-fluid w-100"></figure>
+                                    <div class="caption">
+                                        <div class="txt1">
+                                            <a href="#">Hotel Offer</a>
+                                        </div>
+                                        <div class="txt2">Lorem ipsum dolor sit amet consetuer adipiscing elit, sed diam
+                                            nonummy.Lorem ipsum dolor sit amet consetuer adipiscing elit, sed diam
+                                            nonummy.
+                                        </div>
+                                        <div class="offer-cta-buttons">
+                                            <a href="#" class="btn offer-book-now">Book Now</a>
+                                            <!-- <a href="#" class="btn offer-explore-more">Explore More</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 wow bounceInUp" data-wow-duration="3s">
+                        <div class="latest-news-wrapper">
+                            <div class="latest-news-inner">
+                                <div class="latest-news clearfix">
+                                    <figure><img src="img/offer-2.jpg" alt="" class="img-fluid w-100"></figure>
+                                    <div class="caption">
+                                        <div class="txt1">
+                                            <a href="#">Hotel Offer</a>
+                                        </div>
+                                        <div class="txt2">Lorem ipsum dolor sit amet consetuer adipiscing elit, sed diam
+                                            nonummy.Lorem ipsum dolor sit amet consetuer adipiscing elit, sed diam
+                                            nonummy.
+                                        </div>
+                                        <div class="offer-cta-buttons">
+                                            <a href="#" class="btn offer-book-now">Book Now</a>
+                                            <!-- <a href="#" class="btn offer-explore-more">Explore More</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 wow bounceInUp" data-wow-duration="2s">
+                        <div class="latest-news-wrapper">
+                            <div class="latest-news-inner">
+                                <div class="latest-news clearfix">
+                                    <figure><img src="img/offer-3.jpg" alt="" class="img-fluid w-100"></figure>
+                                    <div class="caption">
+                                        <div class="txt1">
+                                            <a href="#">Hotel Offer</a>
+                                        </div>
+                                        <div class="txt2">Lorem ipsum dolor sit amet consetuer adipiscing elit, sed diam
+                                            nonummy.Lorem ipsum dolor sit amet consetuer adipiscing elit, sed diam
+                                            nonummy.
+                                        </div>
+                                        <div class="offer-cta-buttons">
+                                            <a href="#" class="btn offer-book-now">Book Now</a>
+                                            <!-- <a href="#" class="btn offer-explore-more">Explore More</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 wow bounceInUp" data-wow-duration="3s">
+                        <div class="latest-news-wrapper">
+                            <div class="latest-news-inner">
+                                <div class="latest-news clearfix">
+                                    <figure><img src="img/offer-4.jpg" alt="" class="img-fluid w-100"></figure>
+                                    <div class="caption">
+                                        <div class="txt1">
+                                            <a href="#">Hotel Offer</a>
+                                        </div>
+                                        <div class="txt2">Lorem ipsum dolor sit amet consetuer adipiscing elit, sed diam
+                                            nonummy.Lorem ipsum dolor sit amet consetuer adipiscing elit, sed diam
+                                            nonummy.
+                                        </div>
+                                        <div class="offer-cta-buttons">
+                                            <a href="#" class="btn offer-book-now">Book Now</a>
+                                            <!-- <a href="#" class="btn offer-explore-more">Explore More</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 wow bounceInUp" data-wow-duration="2s">
+                        <div class="latest-news-wrapper">
+                            <div class="latest-news-inner">
+                                <div class="latest-news clearfix">
+                                    <figure><img src="img/offer-5.jpg" alt="" class="img-fluid w-100"></figure>
+                                    <div class="caption">
+                                        <div class="txt1">
+                                            <a href="#">Hotel Offer</a>
+                                        </div>
+                                        <div class="txt2">Lorem ipsum dolor sit amet consetuer adipiscing elit, sed diam
+                                            nonummy.Lorem ipsum dolor sit amet consetuer adipiscing elit, sed diam
+                                            nonummy.
+                                        </div>
+                                        <div class="offer-cta-buttons">
+                                            <a href="#" class="btn offer-book-now">Book Now</a>
+                                            <!-- <a href="#" class="btn offer-explore-more">Explore More</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 wow bounceInUp" data-wow-duration="3s">
+                        <div class="latest-news-wrapper">
+                            <div class="latest-news-inner">
+                                <div class="latest-news clearfix">
+                                    <figure><img src="img/offer-6.jpg" alt="" class="img-fluid w-100"></figure>
+                                    <div class="caption">
+                                        <div class="txt1">
+                                            <a href="#">Hotel Offer</a>
+                                        </div>
+                                        <div class="txt2">Lorem ipsum dolor sit amet consetuer adipiscing elit, sed diam
+                                            nonummy.Lorem ipsum dolor sit amet consetuer adipiscing elit, sed diam
+                                            nonummy.
+                                        </div>
+                                        <div class="offer-cta-buttons">
+                                            <a href="#" class="btn offer-book-now">Book Now</a>
+                                            <!-- <a href="#" class="btn offer-explore-more">Explore More</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+   
+
+    <footer class="bottom col-xs-12 foot_block" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center voffset-bottom5">
+                    <h5>Contact Us</h5>
+                    <p>
+                        The Foxoso Group of Hotels, known for its amazing array, affordable prices, and superior service, upholds the motto of Food | Xperience | Stay.
+                        We pride ourselves on delivering exceptional service and unforgettable experiences. From our thoughtfully appointed accommodations to 
+                        our world-class dining options. Book our luxury hotels and resorts and discover the Foxoso difference.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <h6>Registered Address</h6>
+                    <p class="bottom-p">Foxoso Hospitality Private Limited Branch Office:<br/>
+                    380 Church St. Parramatta NSW 2150, Australia</p>
+
+                    <h6>Corporate Office Address</h6>
+                    <p class="bottom-p no-bottom-mar">
+                        Foxoso Corporate Office – Mehrauli-Gurgaon Rd,<br/>
+                        opp. Metro Pillar No – 16B, near Sultanpur Metro Station, <br/>
+                        Sultanpur, Delhi 110030, INDIA
+                    </p>
+                </div>
+                <div class="col-md-3 border-left text-center">
+                    <ul class="footer-nav">
+                        <li><a href="about.php" class="">About Us</a></li>
+                        <li><a href="#" class="">Experience</a></li>
+                        <li><a href="#" class="">Conferences</a></li>
+                        <li><a href="#" class="">Packages</a></li>
+                        <li><a href="#" class="">Careers</a></li>
+                        <li><a href="about.php" class="">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 border-left border-right text-center"> 
+                    <ul class="footer-nav">
+                        <li><a href="#" class="">Best Rate Guarantee</a></li>
+                        <li><a href="#" class="">Privacy Policy</a></li>
+                        <li><a href="#" class="">Terms & Conditions</a></li>
+                        <li><a href="contact.php" class="">Contact Us</a></li>
+                        <li><a href="#" class="">Podcast</a></li>
+                        <li><a href="#" class="">Manage Booking</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 text-center voffset5">
+                    <h6>Get In Touch</h6>
+                    <ul class="footer-social-links">
+                        <li> <a href="#" target="blank"><i class="icon-tripadvisor"> </i> </a></li>
+                        <li> <a href="#" target="blank"><i class="icon-facebook"> </i> </a></li>
+                        <li> <a href="#" target="blank"><i class="icon-instagram"> </i> </a></li>
+                        <li> <a href="#" target="blank"><i class="icon-twitter"> </i> </a></li>
+                    </ul>
+                </div>
+                <div class="col-12 text-center voffset5">
+                    <div class="bottom-footer-logo-section">
+                        <a href="index.php">
+                            <img src="img/footer-logo.png" alt="" class="footer-logo" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- <script src="js/jquery-3.7.1.min.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/validate.js"></script>
+
+   
+    
+    <script>
+      $('.moreless-button').click(function() {
+      $('.moretext').slideToggle();
+      if ($('.moreless-button').text() == "Read less") {
+        $(this).text("Read more")
+      } else {
+        $(this).text("Read less")
+      }
+    });
+    </script>
+
+
+</body>
+
+</html>
