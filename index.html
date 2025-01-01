@@ -468,7 +468,6 @@
 </footer>
 
 
-
 <!-- <script src="js/jquery-3.7.1.min.js"></script> -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.sticky.js"></script>
@@ -476,130 +475,56 @@
 <script src="js/functions.js"></script>
 <script src="js/validate.js"></script>
 
+<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
 
 
 
-
-  <script type="text/javascript">
-    $( "#checkindate" ).datepicker({
-          numberOfMonths: 2,
-           showCurrentAtPos: 0,
-           dateFormat: 'dd/mm/y',
-           minDate: 0,
-           onSelect: function(selectedDate){
-            var d11 = $('#checkindate').datepicker('getDate');
-            d11.setDate(d11.getDate() + 1); 
-            $('#checkoutdate').datepicker('option', 'minDate', d11,{autoOpen: true});
-            $('#checkoutdate').datepicker('setDate', d11);
-          }
-        });
-        
-        $('#checkindate').datepicker({
-          minDate: new Date(),
-          numberOfMonth: 2,
-        });
-
-        $('#checkoutdate').datepicker({
-          minDate: new Date(),
-          dateFormat: 'dd/mm/y',
-        });
-
-        if($('#checkindate').length) {
-            $('#checkindate').datepicker('setDate', new Date());
-            var d22 = $('#checkindate').datepicker('getDate');
-            d22.setDate(d22.getDate() + 1);
-            $('#checkoutdate').datepicker('option', {numberOfMonths: 2,
-              showCurrentAtPos: 1,}, 'minDate', d22);
-            $('#checkoutdate').datepicker( 'setDate', d22);
-        }
-  </script>
-
-  <script type="text/javascript">
-    $( "#checkindate-1" ).datepicker({
-          numberOfMonths: 2,
-           showCurrentAtPos: 0,
-           dateFormat: 'dd/mm/y',
-           minDate: 0,
-           onSelect: function(selectedDate){
-            var d11 = $('#checkindate-1').datepicker('getDate');
-            d11.setDate(d11.getDate() + 1); 
-            $('#checkoutdate-1').datepicker('option', 'minDate', d11,{autoOpen: true});
-            $('#checkoutdate-1').datepicker('setDate', d11);
-          }
-        });
-        
-        $('#checkindate-1').datepicker({
-          minDate: new Date(),
-          numberOfMonth: 2,
-        });
-
-        $('#checkoutdate-1').datepicker({
-          minDate: new Date(),
-          dateFormat: 'dd/mm/y',
-        });
-
-        if($('#checkindate-1').length) {
-            $('#checkindate-1').datepicker('setDate', new Date());
-            var d22 = $('#checkindate-1').datepicker('getDate');
-            d22.setDate(d22.getDate() + 1);
-            $('#checkoutdate-1').datepicker('option', {numberOfMonths: 2,
-              showCurrentAtPos: 1,}, 'minDate', d22);
-            $('#checkoutdate-1').datepicker( 'setDate', d22);
-        }
-  </script>
-
-    
-    <script>
-      $('.moreless-button').click(function() {
-      $('.moretext').slideToggle();
-      if ($('.moreless-button').text() == "Read less") {
-        $(this).text("Read more")
-      } else {
-        $(this).text("Read less")
-      }
-    });
-    </script>
 
 <script>
-  $('.offer-slider').owlCarousel({
-    loop: true,
-    margin: 30,
-    nav: true,
-    navText: ['<i class="icon-arrow-left"></i>', '<i class="icon-arrow-right"></i>'],
-    dots: true,
-    autoplay: 3000,
-    center: true,
-    responsiveClass: true,
-    responsive: {
-        0: {
-            items: 1,
-            autoplay: true,
-            slideTransition: 'linear',
-            autoplayTimeout: 4000,
-            autoplaySpeed: 4000,
+  $('.moreless-button').click(function() {
+  $('.moretext').slideToggle();
+  if ($('.moreless-button').text() == "Read less") {
+    $(this).text("Read more")
+  } else {
+    $(this).text("Read less")
+  }
+});
+</script>
 
-        },
-        600: {
-            items: 2,
-            autoplay: true,
-            slideTransition: 'linear',
-            autoplayTimeout: 4000,
-            autoplaySpeed: 4000,
+<script>
+$('.offer-slider').owlCarousel({
+loop: true,
+margin: 30,
+nav: true,
+navText: ['<i class="icon-arrow-left"></i>', '<i class="icon-arrow-right"></i>'],
+dots: true,
+autoplay: 3000,
+center: true,
+responsiveClass: true,
+responsive: {
+    0: {
+        items: 1,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 4000,
+        autoplaySpeed: 4000,
 
-        },
-        1024: {
-            items: 3,
-            autoplay: true,
-            slideTransition: 'linear',
-            autoplayTimeout: 4000,
-            autoplaySpeed: 4000,
-        }
+    },
+    600: {
+        items: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 4000,
+        autoplaySpeed: 4000,
+
+    },
+    1024: {
+        items: 3,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 4000,
+        autoplaySpeed: 4000,
     }
+}
 })
 </script>
-<script>
-  
-</script>
-</body>
-
-</html>
