@@ -35,13 +35,14 @@
                     </div>
   
                     <ul class="site-menu main-menu d-lg-block d-none js-clone-nav">
-                      <li class="active"><a href="hotels.php" class="nav-link">Our Hotels</a></li>
-                      <li><a href="about.php" class="nav-link ">About</a></li>
-                      <li><a href="gallery.php" class="nav-link ">Gallery</a></li>
-                      <li><a href="offers.php" class="nav-link ">Special Offers</a></li>
-                      <li><a href="events.php" class="nav-link ">Corporate events</a></li>
-                      <li><a href="weddings.php" class="nav-link ">Weddings</a></li>
-                      <li><a href="contact.php" class="nav-link ">Contact Us</a></li>
+                      <li class="active"><a href="overview.php" class="nav-link">Overview</a></li>
+                      <li><a href="goa-offers.php" class="nav-link ">Offers</a></li>
+                      <li><a href="goa-rooms.php" class="nav-link ">Rooms</a></li>
+                      <li><a href="goa-dine.php" class="nav-link ">Restaurants</a></li>
+                      <li><a href="wedding-and-events.php" class="nav-link ">Weeding & Events</a></li>
+                      <li><a href="goa-facilities.php" class="nav-link ">Facilities</a></li>
+                      <li><a href="goa-gallery.php" class="nav-link ">Gallery</a></li>
+                      <li><a href="goa-contact.php" class="nav-link ">Contact Us</a></li>
                     </ul>
                   </div>
                 </nav>

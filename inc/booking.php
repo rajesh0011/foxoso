@@ -35,7 +35,7 @@
             </div>
             <div class="custom-form-outer-div btn-div">
                <span>&nbsp;</span>
-               <button type="submit" class="btn btn-primary w-100">Enquire Now</button>
+               <button type="submit" class="btn btn-primary w-100">Book Now</button>
             </div>
          </div>
       </div>

@@ -1,0 +1,552 @@
+.wedding-banner {
+    background: url(../img/wedding/wedding-banner-new.webp);
+    background-position: center;
+    height: 420px;
+}
+
+.about-us {
+    background: #fdf6f1;
+    padding: 50px 0;
+}
+.height-auto {
+    height: auto !important;
+}
+
+.custom-img-responsive2 {
+    max-width: 76%;
+    margin-top: 60px;
+    margin-left: 45px;
+    display: inline-block;
+}
+.height-auto {
+    height: auto !important;
+}
+.frame-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    max-width: 100%;
+}
+.about-us h2 {
+    color: #b18c60;
+    font-size: 2rem;
+    /* font-family: 'PinyonScriptRegular'; */
+    margin-top: 50px;
+}
+
+.about-us h3 {
+    color: #9a7a3f;
+    font-size: 1.5rem;
+    font-family: 'OvoRegular';
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.about-us p {
+    color: #374f41;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.btn-primary img {
+    width: 20px;
+}
+
+
+
+
+
+
+
+/* slider css starts */
+
+
+.new-att-slider {
+    background: #16256100;
+    background-image: radial-gradient(circle at 20% 100%, rgb(255 255 255 / 30%) 0%, rgb(255 255 255 / 26%) 33%, rgb(255 255 255 / 6%) 33%, rgb(255 255 255 / 29%) 66%, rgb(255 255 255 / 41%) 66%, rgb(255 255 255 / 33%) 99%), linear-gradient(40deg, #ffffff75, #ffffffbd, #ffffff85, #ffffff82), url(../img/wedding/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+  }
+  
+  .new-att-slider  {
+    display: grid;
+    grid-template-columns: 40% 55%;
+    place-items: center;
+    gap: 35px;
+    min-height: 100vh;
+    padding: 20px 60px;
+  }
+  
+  /* CONTENT */
+  
+  .new-att-slider .content {
+    max-width: 2400px;
+  }
+  
+  .new-att-slider .content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    margin-bottom: 36px;
+  }
+  
+  .new-att-slider .content p {
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .new-att-slider .content button {
+    background: #eaeaea;
+    color: #202134;
+    font-size: clamp(0.9rem, 4vw, 1rem);
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+    padding: 8px 14px;
+    border-radius: 7px;
+    transform: scale(1);
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+  }
+  
+  .new-att-slider .content button:is(:hover, :focus) {
+    transform: scale(0.98);
+    background-color: #6f7aa6;
+    color: #eaeaea;
+  }
+  
+  /* SLIDER */
+  
+  .new-att-slider .swiper {
+    position: relative;
+    width: 100%;
+    height: 484px;
+  }
+  
+  .new-att-slider .swiper-slide {
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    user-select: none;
+    border-radius: 20px;
+  }
+  
+  .new-att-slider .cost {
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    padding: 6px 10px;
+    color: #fff;
+    font-size: clamp(0.8rem, 4vw, 0.9rem);
+    font-weight: 600;
+  }
+  
+  .new-att-slider .dark-text {
+    color: #202134;
+  }
+  
+  .new-att-slider .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .new-att-slider .overlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    padding: 10px 20px;
+    background: rgba(93, 95, 145, 0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .new-att-slider .overlay h1 {
+    font-size: clamp(1.2rem, 4vw, 1.5rem);
+    font-weight: 600;
+  }
+  
+  .new-att-slider .overlay p {
+    font-size: clamp(0.8rem, 4vw, 0.9rem);
+    font-weight: 300;
+    line-height: 1.3;
+  }
+  
+  .new-att-slider .ratings {
+    display: flex;
+    column-gap: 10px;
+    margin-top: -6px;
+  }
+  
+  .new-att-slider .ratings span {
+    font-size: clamp(0.8rem, 4vw, 0.9rem);
+    font-weight: 300;
+  }
+  
+  .new-att-slider .star {
+    color: #afe312;
+  }
+  
+  .new-att-slider .logo {
+    position: fixed;
+    right: -20px;
+    bottom: -30px;
+    z-index: 10;
+  }
+  
+  .new-att-slider .logo img {
+    width: 120px;
+  }
+  
+  @media (max-width: 890px) {
+    .new-att-slider .logo {
+    right: -10px;
+    bottom: -20px;
+  }
+    
+  .new-att-slider .logo img {
+    width: 80px;
+    }
+  }
+  
+  @media (max-width: 1050px) {
+    .new-att-slider .swiper {
+      width: 350px;
+      height: 450px;
+    }
+  }
+  
+  @media (max-width: 930px) {
+    .new-att-slider  {
+      grid-template-columns: 100%;
+      grid-template-rows: 55% 40%;
+      grid-template-areas:
+        "slider"
+        "content";
+      place-items: center;
+      gap: 64px;
+      padding: 60px;
+    }
+  
+    .new-att-slider .swiper {
+      grid-area: slider;
+    }
+  
+    .new-att-slider .content {
+      grid-area: content;
+      text-align: center;
+    }
+  
+    .new-att-slider .content h1 {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 470px) {
+    .new-att-slider  {
+      padding: 40px 40px 60px;
+    }
+  
+    .new-att-slider .swiper {
+      width: 300px;
+      height: 400px;
+    }
+  }
+
+
+  .fixed-form p {
+    margin-bottom: 7px !important;
+    text-align: center;
+    color: #000;
+    /* border-top: 1px dotted; */
+    padding-top: 4px;
+    font-weight: 500;
+}
+.fixed-form.fixed {
+    /* text-align: center; */
+    display: block;
+    padding: 0 30px;
+    padding-top: 1rem;
+}
+h5.modal-title {
+    text-align: center;
+    background-color: #b18c60;
+    border-radius: 0px;
+    padding: 5px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    color: #fff;
+    margin-top: 0px;
+    border-radius: 0.8rem 0.8rem 0 0;
+}
+.modal .modal-content {
+    border-radius: 1rem;
+    background-image: url(../img/wedding/flower-4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.modal .modal-body {
+    padding: 0;
+    border-bottom: 0.2rem solid #b18c60;
+    border-left: 0.2rem solid #b18c60;
+    border-right: 0.2rem solid #b18c60;
+    border-radius: 1rem;
+}
+.fixed-form .formFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fixed-form label {
+    font-weight: 200;
+    font-family: 'MontserratLight';
+}
+.modal .btn-close {
+    position: absolute;
+    right: 4px;
+    top: 6px;
+    background-color: white;
+    opacity: 1;
+    padding: 5px;
+    border-radius: 18px;
+    font-size: 15px;
+}
+.fixed-form .form-control,
+.fixed-form .form-control:focus {
+    margin-bottom: .8rem;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    box-shadow: none;
+    border: none;
+    font-size: 14px;
+    border-left: 1px solid #b18c60;
+    border-bottom: 1px solid #b18c60;
+    border-radius: 6px;
+}
+.fixed-form .form-control::placeholder{
+    opacity: 0;
+    font-family: 'MontserratLight';
+}
+.fixed-form .form-control:focus::placeholder{
+    opacity: 1;
+}
+.fixed-form form .form .form-group{
+    position: relative;
+}
+.fixed-form .formFooter button {
+    text-align: center;
+    background: #b18c60;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    transition: all 300ms ease-in-out;
+    outline: none;
+    margin-bottom: 1rem;
+    width: 126px;
+    border-left: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-radius: 6px;
+}
+
+.wedding-destinations .timeline-item+p{
+    display: none;
+}
+
+.city-buttons .btn {
+    color: #b18c60;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #b18c60;
+    padding: 7px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+  }
+  
+  .city-buttons .btn:hover {
+    color: white;
+  }
+  
+  .city-buttons .btn::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: #b18c60;
+    z-index: -1;
+    transition: all .5s;
+  }
+  
+  .city-buttons .btn:hover::before {
+    width: 160%;
+  }
+
+  .wedding-destinations {
+    background-image: url(../img/wedding/flower-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner3 {
+    font-family: "Montserrat", sans-serif;
+    color: #8d97ad;
+    font-weight: 300;
+    max-height: 800px;
+  }
+  
+  .banner3 .banner {
+    position: relative;
+    max-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    display: table;
+  }
+  
+  .banner3 h1,
+  .banner3 h2,
+  .banner3 h3,
+  .banner3 h4,
+  .banner3 h5,
+  .banner3 h6 {
+    color: #3e4555;
+  }
+  
+  .banner3 .font-weight-medium {
+    font-weight: 500;
+  }
+  
+  .banner3 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+  }
+  
+  .banner3 .btn-danger-gradiant {
+    background: #ff4d7e;
+    background: -webkit-linear-gradient(legacy-direction(to right), #ff4d7e 0%, #ff6a5b 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#ff4d7e), to(#ff6a5b));
+    background: -webkit-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+    background: -o-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+    background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+    border: 0px;
+  }
+  
+  .banner3 .btn-danger-gradiant:hover {
+    background: #ff6a5b;
+    background: -webkit-linear-gradient(legacy-direction(to right), #ff6a5b 0%, #ff4d7e 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#ff6a5b), to(#ff4d7e));
+    background: -webkit-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+    background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+    background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
+  }
+  
+  .banner3 .btn-danger-gradiant.active,
+  .banner3 .btn-danger-gradiant:active,
+  .banner3 .btn-danger-gradiant:focus {
+    -webkit-box-shadow: 0px;
+    box-shadow: 0px;
+    opacity: 1;
+  }
+  
+  
+  .banner3 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+  }
+  
+  .banner3 .form-row {
+    margin: 0;
+  }
+  
+  .banner3 label.font-12 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .banner3 .form-control {
+    color: #000;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+  
+  .banner3 .date label {
+    cursor: pointer;
+    margin: 0;
+  }
+  
+  @media (max-width: 370px) {
+    .banner3 .left,
+    .banner3 .right {
+      padding: 25px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .banner3 .left,
+    .banner3 .right {
+      padding: 25px 15px;
+    }
+  }
+  
+  .banner3 .font-14 {
+    font-size: 14px;
+  }
+  
+  .banner3 .text-inverse {
+    color: #3e4555 !important;
+  }
+
+  .banner3 .fixed-form.fixed {
+    /* text-align: center; */
+    display: block;
+    padding: 0 30px;
+    padding-top: 1rem;
+    background-color: #fffffff5;
+    border-radius: 1rem;
+    color: #000;
+}
+
+.banner3 {
+    background: linear-gradient(rgba(252, 253, 255, 0%), rgba(200, 200, 200, 0%)),
+     url(../img/wedding/wed-5.jpg) center center no-repeat;
+     background-size: cover;
+}

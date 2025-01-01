@@ -23,12 +23,12 @@
                 </div>
                 <div class="col-md-3 border-left text-center">
                     <ul class="footer-nav">
-                        <li><a href="#" class="">About Us</a></li>
+                        <li><a href="about.php" class="">About Us</a></li>
                         <li><a href="#" class="">Experience</a></li>
                         <li><a href="#" class="">Conferences</a></li>
                         <li><a href="#" class="">Packages</a></li>
                         <li><a href="#" class="">Careers</a></li>
-                        <li><a href="#" class="">About Us</a></li>
+                        <li><a href="about.php" class="">About Us</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 border-left border-right text-center"> 
@@ -36,7 +36,7 @@
                         <li><a href="#" class="">Best Rate Guarantee</a></li>
                         <li><a href="#" class="">Privacy Policy</a></li>
                         <li><a href="#" class="">Terms & Conditions</a></li>
-                        <li><a href="#" class="">Contact Us</a></li>
+                        <li><a href="contact.php" class="">Contact Us</a></li>
                         <li><a href="#" class="">Podcast</a></li>
                         <li><a href="#" class="">Manage Booking</a></li>
                     </ul>
@@ -52,7 +52,7 @@
                 </div>
                 <div class="col-12 text-center voffset5">
                     <div class="bottom-footer-logo-section">
-                        <a href="javascript:void(0);">
+                        <a href="index.php">
                             <img src="img/footer-logo.png" alt="" class="footer-logo" />
                         </a>
                     </div>
@@ -69,3 +69,5 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/functions.js"></script>
     <script src="js/validate.js"></script>
+
+   
